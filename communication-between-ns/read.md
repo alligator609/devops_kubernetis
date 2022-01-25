@@ -1,4 +1,6 @@
 # Network Namespace with Egress and Ingress Traffic
+Engress: Other nmaspace to root namspace 
+Ingress: Root namspace to other namaspance
 
 In this doccumentation, we will cover
 
@@ -394,6 +396,7 @@ Congratulation! We have configured both Ingress and Egress Traffic successfully.
 
 ## Reference
 
+0. https://github.com/dipanjal/DevOps/blob/main/NetNS_Ingress_Egress_Traffic/README.md
 1. https://serverfault.com/questions/684439/how-to-connect-custom-network-namespace-to-root-network-namespace
 
 2. https://wiki.archlinux.org/title/Network_bridge
