@@ -120,7 +120,7 @@ it can't access internet
 so its can how is he doing that, so check route table
 
 ``` route ```
-result <img src="../assets/route-tablle-after-bridge.png">
+result <img src="../assets/route-tablle-after-bridge1.png">
 
 
 ## check yellow route table
