@@ -28,6 +28,9 @@
 
 sudo su (switch user to super user)
 
+## restart
+``` sudo reboot ```
+
 ## !! => Run previous command
 
 ## pplication install and remove
@@ -130,3 +133,40 @@ tar -xvjf filename  (file located in current directory)
 example :
 
 tar -xvjf tor64.tar.xz       ( extract file named tor.64.tar.xz in current directory)
+
+
+## name space commands
+
+### create a ns name red
+``` sudo ip netns add red ```
+
+### go inside a the namespace
+
+``` sudo ip netns exec red sh ``` 
+
+ ### goto a docker container
+
+ ``` docker exec -it <container-id > sh ```
+
+
+ ## install net tools
+
+ sudo apt install net-tools
+
+
+ ## all interface
+
+ ``` ifconfig ```
+
+ ## Active Internet connections (only servers)
+
+ ``` sudo netstat -tunlp ```
+
+ ## to dig an interface
+ ``` dig localhost ```
+output
+localhost.              0       IN      A       127.0.0.1
+
+
+## ip table
+``` sudo route ``` 
